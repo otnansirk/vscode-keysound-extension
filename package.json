@@ -4,6 +4,7 @@
     "description": "Tune Your Mechanical Keyboard Experience. Harmonize with Keysound.",
     "version": "0.0.1",
     "license": "MIT",
+    "icon": "./assets/logo.gif",
     "engines": {
         "vscode": "^1.79.0"
     },
