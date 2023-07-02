@@ -2,7 +2,7 @@
     "name": "keysound",
     "displayName": "keysound",
     "description": "Tune Your Mechanical Keyboard Experience. Harmonize with Keysound.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "license": "MIT",
     "icon": "./assets/logo.gif",
     "engines": {
