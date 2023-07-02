@@ -2,13 +2,6 @@
 
 The VSCode Keysound Extension is a powerful tool that enables mechanical keyboard experience and harmonize your Visual Studio Code keyboard.
 
-### Code coverage
-
-![Statements](https://img.shields.io/badge/statements-100%25-brightgreen.svg?style=flat)
-![Branches](https://img.shields.io/badge/branches-100%25-brightgreen.svg?style=flat)
-![Functions](https://img.shields.io/badge/functions-100%25-brightgreen.svg?style=flat)
-![Lines](https://img.shields.io/badge/lines-100%25-brightgreen.svg?style=flat)
-
 ## Usage
 
 To use the Keysound Extension, follow these steps:
@@ -31,6 +24,13 @@ To configure the "keysound" settings, follow the instructions below.
 - `keysound.enter` To change the sound specifically for the enter key, provide the full path to a .wav file as the value for this option.
 - `keysound.backspace` If you wish to modify the sound played when pressing the backspace key, specify the full path to a .wav file in the value of this option.
 - `keysound.other` You can customize the audio for other keyboard actions by specifying the full path to a .wav file. Replace the default value with the desired audio file path.
+
+
+### Enable sound
+![enable keysound](./assets/enable_keysound.png)
+
+### Disable sound
+![disable keysound](./assets/disable_keysound.png)
 
 ## Reporting issues
 
