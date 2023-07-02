@@ -5,6 +5,10 @@
     "version": "1.0.0",
     "license": "MIT",
     "icon": "./assets/logo.gif",
+    "publisher": "otnansirk",
+    "author": {
+        "name": "otnansirk"
+    },
     "engines": {
         "vscode": "^1.79.0"
     },
