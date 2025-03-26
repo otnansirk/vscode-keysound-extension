@@ -32,17 +32,17 @@
                 "keysound.other": {
                     "type": "string",
                     "default": true,
-                    "description": "Controls to change sound. Use fullpath to file resource .wav"
+                    "description": "Custom sound: Use the full path to the .wav file. Leave empty to use the default sound."
                 },
                 "keysound.enter": {
                     "type": "string",
                     "default": true,
-                    "description": "Controls to change enter sound. Use fullpath to file resource .wav"
+                    "description": "Custom enter sound: Use the full path to the .wav file. Leave empty to use the default sound."
                 },
                 "keysound.backspace": {
                     "type": "string",
                     "default": true,
-                    "description": "Controls to change backspace sound. Use fullpath to file resource .wav"
+                    "description": "Custom backspace sound: Use the full path to the .wav file. Leave empty to use the default sound."
                 }
             }
         }

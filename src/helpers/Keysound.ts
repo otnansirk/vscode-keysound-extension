@@ -25,13 +25,14 @@ class Keysound {
   }
 
   public getKeysounds():KeysoundType[] {
+    
     return [
       {
         key: 10,
         name: 'enter',
-        soundPath: this.config.get('keysound.enter') === true
-                    ? path.join(Keysound.rootPath, '/audio/keysound_click2.wav')
-                    : this.config.get('keysound.enter', '')
+        soundPath: this.config.get('keysound.enter')
+                    ? this.config.get('keysound.enter', '')
+                    : path.join(Keysound.rootPath, '/audio/keysound_click2.wav')
       },
       // Register other keysound by ascii
     ];
@@ -41,9 +42,9 @@ class Keysound {
     return {
       key: 'other',
       name: 'other',
-      soundPath: this.config.get('keysound.other') === true
-                  ? path.join(Keysound.rootPath, '/audio/keysound_click1.wav')
-                  : this.config.get('keysound.other', '')
+      soundPath: this.config.get('keysound.other')
+                  ? this.config.get('keysound.other', '')
+                  : path.join(Keysound.rootPath, '/audio/keysound_click1.wav')
     };
   }
 
@@ -51,9 +52,9 @@ class Keysound {
     return {
       key: NaN,
       name: 'backspace',
-      soundPath: this.config.get('keysound.backspace') === true
-                  ? path.join(Keysound.rootPath, '/audio/keysound_click2.wav')
-                  : this.config.get('keysound.backspace', '')
+      soundPath: this.config.get('keysound.backspace')
+                  ? this.config.get('keysound.backspace', '')
+                  : path.join(Keysound.rootPath, '/audio/keysound_click2.wav')
     };
   };
 
